@@ -24,5 +24,5 @@ while True:
     success,img=cap.read()
     cv2.imshow("video",img)
     
-    if cv2.waitKey(1000) & 0xFF == ord('q'):
+    if cv2.waitKey(10000) & 0xFF == ord('q'):
         break
